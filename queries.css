@@ -1,4 +1,4 @@
-@media only screen and (max-width: 320px) {
+@media only screen and (max-width: 340px) {
 	header h1 {
 		font-size: 1.6rem;
 	}
@@ -8,18 +8,58 @@
 	}
 }
 
+@media only screen and (min-width: 400px) {
+	header h1 {
+		font-size: 2.25rem;
+	}
+}
+
+@media only screen and (min-width: 500px) {
+	header h1 {
+		padding-left: 8rem;
+	}
+
+	.foot-nav a {
+		padding-left: 2rem;
+	}
+
+	.copyright {
+		font-size: 0.9rem;
+	}
+
+	.social-nav {
+		padding-right: 3rem;
+	}
+	.social-nav img {
+		width: 1.5rem;
+		height: auto;
+	}
+}
+
+@media only screen and (min-width: 600px) {
+	header h1 {
+		padding-left: 11rem;
+	}
+}
+
+@media only screen and (min-width: 700px) {
+	header h1 {
+		padding-left: 13rem;
+	}
+}
+
 @media only screen and (min-height: 700px) {
 	header {
 		background-size: cover;
 	}
 }
 
-@media only screen and (min-width: 1000px) {
+@media only screen and (min-width: 800px) {
 	body {
 		font-size: 1.5rem;
 	}
+
 	header h1 {
-		font-size: 3rem;
 		padding-left: 20rem;
 	}
 
@@ -49,7 +89,7 @@
 	.rights-img {
 		height: 30rem;
 		width: auto;
-		padding: 2rem 0 1rem 15rem;
+		padding: 2rem 0 1rem 13rem;
 	}
 
 	footer {
@@ -57,9 +97,22 @@
 	}
 }
 
-@media only screen and (min-width: 800px) {
+@media only screen and (min-width: 1000px) {
 	header h1 {
+		font-size: 3rem;
 		padding-left: 20rem;
+	}
+
+	.rights-img {
+		padding-left: 20rem;
+	}
+
+	.foot-nav {
+		padding-left: 10rem;
+	}
+
+	.social-nav {
+		padding-right: 10rem;
 	}
 }
 

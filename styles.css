@@ -8,6 +8,8 @@ html {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
 	background-color: ghostwhite;
+	scroll-behavior: smooth;
+	text-rendering: optimizeLegibility;
 }
 
 /*--------------*/
@@ -29,9 +31,10 @@ header {
 }
 
 h1 {
-	font-size: 2.25rem;
+	font-size: 2rem;
 	font-weight: 700;
-	padding: 5rem 0 0 3rem;
+	padding-left: 5rem;
+	margin: 5rem auto;
 }
 
 /*------NAVI----*/
@@ -40,13 +43,14 @@ h1 {
 	display: flex;
 	list-style: none;
 	font-size: 1.25rem;
-	padding: 1rem 0 0 1rem;
+	padding: 0 1rem 0 1rem;
+	justify-content: space-between;
 }
 
 .nav li {
 	display: flex;
 	float: right;
-	padding: 2rem 0 0 1.5rem;
+	padding-top: 1.5rem;
 }
 
 .nav a {
@@ -58,9 +62,10 @@ h1 {
 }
 
 .logo {
-	width: 5rem;
+	width: 4rem;
 	height: auto;
 	border-radius: 50%;
+	padding-top: 0.5rem;
 }
 
 /*--------------*/
@@ -115,8 +120,10 @@ a:active {
 /*--------------*/
 
 footer {
+	display: flex;
+	justify-content: space-between;
 	background-color: rgb(100, 100, 100);
-	padding: 1rem 0 1rem 2.5rem;
+	padding: 1rem;
 	font-size: 0.75rem;
 }
 
@@ -125,10 +132,26 @@ footer a {
 	text-decoration: none;
 }
 
-.foot-nav a {
-	color: whitesmoke;
+.foot-nav {
+	display: flex;
 }
 
-.social-links a {
+.foot-nav a {
 	color: whitesmoke;
+	padding-left: 0.5rem;
+}
+
+.copyright {
+	display: flex;
+	padding-top: 1rem;
+}
+
+.social-nav {
+	display: flex;
+	padding-right: 1.5rem;
+}
+.social-nav img {
+	background-color: whitesmoke;
+	width: 1rem;
+	height: auto;
 }
