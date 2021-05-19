@@ -1,0 +1,130 @@
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+html {
+	font-family: 'Lato', sans-serif;
+	font-weight: 400;
+}
+
+/*--------------*/
+/*----HEADER----*/
+/*--------------*/
+
+header {
+	color: whitesmoke;
+	background-image: linear-gradient(
+			hsla(0, 0%, 0%, 0.534),
+			hsla(0, 0%, 0%, 0.534)
+		),
+		url('./img/vtBrickSmallpng.png');
+	background-position: 45% 30%;
+	background-repeat: no-repeat;
+	width: 100vw;
+	height: 55vh;
+}
+
+h1 {
+	font-size: 2.25rem;
+	font-weight: 700;
+	padding: 5rem 0 0 3rem;
+}
+
+/*------NAVI----*/
+
+.nav {
+	display: flex;
+	list-style: none;
+	font-size: 1.25rem;
+	padding: 1rem 0 0 1rem;
+}
+
+.nav li {
+	padding: 2rem 0 0 1.5rem;
+}
+
+.nav a {
+	color: whitesmoke;
+	text-decoration: none;
+	display: flex;
+	justify-content: right;
+	cursor: pointer;
+}
+
+.logo {
+	width: 5rem;
+	height: auto;
+	border-radius: 50%;
+}
+
+/*--------------*/
+/*------BODY----*/
+/*--------------*/
+
+h2 {
+	font-weight: 700;
+	/* font-style: italic; */
+}
+
+section {
+	margin: 1rem 2rem;
+	line-height: 1.6rem;
+}
+
+/*------LINKS----*/
+
+a {
+	text-decoration: none;
+	color: rgb(8, 104, 121);
+}
+
+a:hover,
+a:active {
+	color: rgb(173, 14, 14);
+}
+
+/*------ABOUT----*/
+
+.take-it-img {
+	height: 10rem;
+	width: auto;
+}
+
+/*------CONTACT----*/
+
+.code-img {
+	width: 15rem;
+	height: auto;
+}
+
+/*------JOIN----*/
+
+.rights-img {
+	height: 15rem;
+	width: auto;
+}
+
+/*--------------*/
+/*----FOOTER----*/
+/*--------------*/
+
+footer {
+	background-color: rgb(100, 100, 100);
+	padding: 1rem 0 1rem 2.5rem;
+	font-size: 0.75rem;
+}
+
+footer a {
+	color: black;
+	text-decoration: none;
+}
+
+.foot-nav a {
+	color: whitesmoke;
+}
+
+.social-links a {
+	color: whitesmoke;
+}
