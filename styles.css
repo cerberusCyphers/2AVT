@@ -7,6 +7,7 @@
 html {
 	font-family: 'Lato', sans-serif;
 	font-weight: 400;
+	background-color: .;
 }
 
 /*--------------*/
@@ -65,7 +66,7 @@ h1 {
 
 h2 {
 	font-weight: 700;
-	/* font-style: italic; */
+	color: goldenrod;
 }
 
 section {
@@ -77,7 +78,7 @@ section {
 
 a {
 	text-decoration: none;
-	color: rgb(8, 104, 121);
+	color: #20daa5;
 }
 
 a:hover,
