@@ -82,6 +82,10 @@ section {
 	line-height: 1.6rem;
 }
 
+p {
+	max-width: 60rem;
+}
+
 /*------LINKS----*/
 
 a {
@@ -141,6 +145,11 @@ footer a {
 	padding-left: 0.5rem;
 }
 
+.foot-nav a:hover,
+.foot-nav a:active {
+	color: rgb(173, 14, 14);
+}
+
 .copyright {
 	display: flex;
 	padding-top: 1rem;
@@ -154,4 +163,5 @@ footer a {
 	background-color: whitesmoke;
 	width: 1rem;
 	height: auto;
+	border-radius: 10px;
 }
