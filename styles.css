@@ -31,10 +31,49 @@ header {
 }
 
 h1 {
-	font-size: 2rem;
+	position: absolute;
+	top: 30%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+}
+
+.heading-main {
+	display: block;
+	font-size: 1.8rem;
 	font-weight: 700;
-	padding-left: 5rem;
-	margin: 5rem auto;
+	animation-name: fadeInDown;
+	animation-duration: 1s;
+}
+
+.heading-sub {
+	display: block;
+	font-size: 1.8rem;
+	font-weight: 700;
+	animation-name: fadeInUp;
+	animation-duration: 1s;
+}
+
+@keyframes fadeInDown {
+	0% {
+		opacity: 0;
+		transform: translateY(-100px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
+}
+@keyframes fadeInUp {
+	0% {
+		opacity: 0;
+		transform: translateY(100px);
+	}
+
+	100% {
+		opacity: 1;
+		transform: translate(0);
+	}
 }
 
 /*------NAVI----*/
