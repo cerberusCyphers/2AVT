@@ -168,12 +168,12 @@ p {
 
 a {
 	text-decoration: none;
-	color: #20daa5;
+	color: #b9bbd8;
 }
 
 a:hover,
 a:active {
-	color: rgb(173, 14, 14);
+	color: rgb(192, 86, 86);
 }
 
 /*---SECTIONS----*/
@@ -209,8 +209,8 @@ a:active {
 	color: #fff;
 }
 
-.take-it-img {
-	height: 15rem;
+.about-img {
+	height: 50%;
 	padding: 2rem 0 1rem 2rem;
 }
 
@@ -221,6 +221,7 @@ a:active {
 	linear-gradient(rgba(232, 224, 224, 0.553), rgba(232, 224, 224, 0.553)),
 	url('https://images.squarespace-cdn.com/content/v1/591d52f9f5e2313d04c3df93/1497545611054-SWDAGFHOVSY0BQ25IOI9/ke17ZwdGBToddI8pDm48kBNRt0cg4WAanfWojlHLplx7gQa3H78H3Y0txjaiv_0fDoOvxcdMmMKkDsyUqMSsMWxHk725yiiHCCLfrh8O1z5QPOohDIaIeljMHgDF5CVlOqpeNLcJ80NK65_fV7S1US6IfA3z_hZ3gTROHXzj40oiauNtBL88ZRQhKg2xy4MQPt_AAiqPvsV6TvkS6kIncw/image-asset.jpeg?format=2500w');
 	background-color: rgb(232, 224, 224);
+	background-size: cover;
 	clip-path: polygon(0 0, 0 90%, 100% 100%, 100% 10%);
 	margin-top: -10rem;
 	margin-bottom: -10rem;
@@ -234,8 +235,8 @@ a:active {
 	color: #fff;
 }
 
-.rights-img {
-	height: 15rem;
+.social-img {
+	height: 50%;
 	padding: 2rem 0 1rem 4rem;
 }
 
