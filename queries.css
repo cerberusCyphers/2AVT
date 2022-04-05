@@ -1,99 +1,103 @@
-@media only screen and (max-width: 340px) {
-	h1 {
+@media only screen and (max-width: 1000px) {
+	.copyright p,
+	.foot-nav a  {
 		font-size: 1.6rem;
 	}
 
-	.nav li {
+}
+
+@media only screen and (max-width: 800px) {
+	p,
+	.copyright p,
+	.foot-nav a {
+		font-size: 1.4rem;
+	}
+	.social-nav img {
+		width: 2rem;
+	}
+
+
+@media only screen and (max-width: 700px) {
+	.heading-main {
+		font-size: 3rem;
+	}
+
+	.heading-sub {
+		font-size: 2.5rem;
+	}
+
+	h4,
+	p {
+		width: 70vw;
+	}
+	
+	.about-img {
+		height: 10rem;
+	}
+	
+	.social-img {
+		height: 12rem;
+	}
+
+	footer {
+		gap: 1rem;
+	}
+	
+	.foot-nav {
+		flex-direction: column;
+		gap: 0;
+	}
+
+	.foot-nav a {
 		font-size: 1rem;
 	}
-}
 
-@media only screen and (min-width: 400px) {
-	h1 {
-		font-size: 2.25rem;
+	.copyright p {
+		font-size: 1.2rem;
+	}
+
+	.social-nav {
+		justify-content: center;
+		align-items: center;
 	}
 }
 
-@media only screen and (min-width: 500px) {
-	.rights-img,
-	.take-it-img {
-		padding-left: 13rem;
+@media only screen and (max-width: 500px) {
+.heading-main {
+		font-size: 2.5rem;
+	}
+
+	.heading-sub {
+		font-size: 2.2rem;
+	}
+
+	h2 {
+		width: 50vw;
+	}
+
+	h4 {
+		font-size: 1.5rem;
+	}
+	
+	.about-img {
+		height: 8rem;
 	}
 
 	.foot-nav a {
 		padding-left: 2rem;
 	}
-
-	.copyright {
+	
+	.copyright p {
 		font-size: 0.9rem;
 	}
-
-	.social-nav {
-		padding-right: 3rem;
-	}
+	
 	.social-nav img {
 		width: 1.5rem;
 		height: auto;
 	}
 }
 
-@media only screen and (min-width: 700px) {
-	h1 {
-		font-size: 3rem;
-	}
+@media only screen and (max-width: 400px) {
+
 }
 
-@media only screen and (min-width: 800px) {
-	h1 {
-		font-size: 5rem;
-	}
-
-	body {
-		font-size: 1.5rem;
-	}
-
-	section {
-		margin-left: 10rem;
-		width: 70%;
-		line-height: 1.8rem;
-	}
-
-	h2,
-	h4,
-	section p {
-		padding: 1rem 0 0.5rem 0;
-	}
-
-	.take-it-img {
-		height: 20rem;
-	}
-
-	.code-img {
-		width: 25rem;
-	}
-
-	.rights-img {
-		height: 30rem;
-	}
-
-	footer {
-		font-size: 1rem;
-	}
-}
-
-@media only screen and (min-width: 1000px) {
-	.take-it-img {
-		padding-left: 20rem;
-	}
-	.rights-img {
-		padding-left: 20rem;
-	}
-
-	.foot-nav {
-		padding-left: 10rem;
-	}
-
-	.social-nav {
-		padding-right: 10rem;
-	}
-}
